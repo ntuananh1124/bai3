@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dang ky thanh vien</title>
+    <style>
+        td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dang ki thanh vien</h1>
+    <form action="https://www.w3schools.com/action_page.php">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="">Ho ten</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Vui long nhap ho ten">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Mat khau</label>
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Vui long nhap mat khau">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Gioi tinh</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="nam" name="gioitinh">
+                        <label for="nam">Nam</label>
+                        <input type="radio" id="nu" name="gioitinh">
+                        <label for="nu">Nu</label>
+                        <input type="radio" id="secret" name="gioitinh">
+                        <label for="secret">Khong cong bo</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>So thich</td>
+                    <td>
+                        <input type="checkbox" name="sothich" id="xemphim" value="xemphim">
+                        <label for="xemphim">Xem film</label>
+                        <input type="checkbox" name="sothich" id="docsach" value="docsach">
+                        <label for="docsach">Doc sach</label>
+                        <input type="checkbox" name="sothich" id="nghenhac" value="nghenhac">
+                        <label for="nghenhac">Nghe nhac</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tuoi</td>
+                    <td>
+                        <input type="text" name="tuoi" value="15" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tu khoa tim kiem</td>
+                    <td>
+                        <input type="text" name="keyword" value="tu khoa">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gioi thieu ban than</td>
+                    <td>
+                        <textarea cols="100" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email co the lien he</td>
+                    <td>
+                        <input type="email" name="email" novalidate >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Dia chi web cua ban
+                    </td>
+                    <td>
+                        <input type="text" name="dia chi web">
+                    </td>
+                </tr>
+                <tr>
+                    <td>SDT</td>
+                    <td>
+                        <input type="text" name="sdt">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cac loai chon thoi gian</td>
+                    <td>
+                        <div class="">
+                            <h2><b>Ngay thang</b></h2>
+                            <label for="date-select">Chon ngay</label>
+                            <input type="date" id="date-select" name="day">
+                            <br>
+                            <label for="month-select">Chon thang</label>
+                            <input type="month" id="month-select" name="month">
+                            <br>
+                            <label for="week-select">Chon tuan</label>
+                            <input type="week" id="week-select" name="week">
+                        </div>
+                        <div class="">
+                            <h2><b>Gio</b></h2>
+                            <label for="time-select">Chon gio</label>
+                            <input type="time" id="time-select" name="time">
+                            <br>
+                            <label for="day-time">Chon ca ngay va gio</label>
+                            <input type="datetime-local" name="ngayvagio" id="day-time">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mau yeu thich</td>
+                    <td>
+                        <input type="color" name="color">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ban dang sinh song o tinh thanh pho nao</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
